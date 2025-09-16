@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@tailwindcss/vite": "^4.1.12",
+    "axios": "^1.11.0",
     "daisyui": "^5.0.54",
     "firebase": "^12.2.1",
     "localforage": "^1.10.0",

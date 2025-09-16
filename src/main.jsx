@@ -13,6 +13,7 @@ import Register from "./components/Pages/Register.jsx";
 import Login from "./components/Pages/Login.jsx";
 import Footer from "./components/Pages/Footer.jsx";
 import AuthProvider from "./components/AuthProvider.jsx";
+import Mail from "./components/Pages/Mail.jsx"
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: "/login",
         element: <Login></Login>
+      },
+      {
+        path: "/mail",
+        element: <Mail></Mail>
       }
     ]
   },

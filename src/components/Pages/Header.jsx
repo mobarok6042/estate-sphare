@@ -1,12 +1,13 @@
-import { NavLink,Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 const Header = () => {
-    
+
     const links = <>
-    <li><NavLink to="/home">Home</NavLink></li>
-    <li><NavLink to="/properties">Properties</NavLink></li>
-    <li><NavLink to="/updateprofile">Update Profile</NavLink></li>
-    <li><NavLink to="/register">Register</NavLink></li>
+        <li><NavLink to="/home">Home</NavLink></li>
+        <li><NavLink to="/properties">Properties</NavLink></li>
+        <li><NavLink to="/updateprofile">Update Profile</NavLink></li>
+        <li><NavLink to="/register">Register</NavLink></li>
+        <li><NavLink to="/mail">Mail me</NavLink></li>
     </>
     return (
         <div className="-mt-7">
@@ -30,7 +31,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                   <Link to="/login"><button className="btn btn-accent">Login</button></Link>
+                    <Link to="/login"><button className="btn btn-accent">Login</button></Link>
                 </div>
             </div>
         </div>
