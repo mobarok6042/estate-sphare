@@ -24,9 +24,9 @@ const ContactForm = () => {
     return (
         <div>
             <form ref={form} onSubmit={sendEmail}>
-                <input type="text" name="user_name" placeholder="Your Name" required />
-                <input type="email" name="user_email" placeholder="Your Email" required />
-                <textarea name="message" placeholder="Your Message" required />
+                <input className="w-16 h-7 border " type="text" name="user_name" placeholder="Your Name" required />
+                <input className="w-16 h-7 border "type="email" name="user_email" placeholder="Your Email" required />
+                <textarea className="w-32 h-20 border" name="message" placeholder="Your Message" required />
                 <button type="submit">Send</button>
             </form>
             <a
